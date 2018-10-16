@@ -16,5 +16,20 @@ namespace Assisnment_2_Resistors
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double D1 = Convert.ToDouble(textBox1.Text);
+                double D2 = Convert.ToDouble(textBox2.Text);
+                double TotalResistance = D1 + D2;
+                label3.Text = TotalResistance.ToString();
+            }
+            catch
+            {
+                label3.Text = "Error unable to calculate.";
+            }
+        }
     }
 }
