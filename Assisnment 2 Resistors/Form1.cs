@@ -59,6 +59,8 @@ namespace Assisnment_2_Resistors
                 label1.Show();
                 label2.Show();
                 label3.Show();
+                label38.Show();
+                label40.Show();
                 button1.Show();
             }
             else if (comboBox1.SelectedIndex == 1)
@@ -69,6 +71,8 @@ namespace Assisnment_2_Resistors
                 label4.Show();
                 label5.Show();
                 label6.Show();
+                label39.Show();
+                label41.Show();
                 button2.Show();
             }
             else if (comboBox1.SelectedIndex == 2)
@@ -81,6 +85,8 @@ namespace Assisnment_2_Resistors
                 label8.Show();
                 label9.Show();
                 label10.Show();
+                label38.Show();
+                label40.Show();
                 button3.Show();
             }
             else if (comboBox1.SelectedIndex == 3)
@@ -93,6 +99,8 @@ namespace Assisnment_2_Resistors
                 label12.Show();
                 label13.Show();
                 label14.Show();
+                label39.Show();
+                label41.Show();
                 button4.Show();
             }
             else if (comboBox1.SelectedIndex == 4)
@@ -107,6 +115,8 @@ namespace Assisnment_2_Resistors
                 label17.Show();
                 label18.Show();
                 label19.Show();
+                label38.Show();
+                label40.Show();
                 button5.Show();
             }
             else if (comboBox1.SelectedIndex == 5)
@@ -121,6 +131,8 @@ namespace Assisnment_2_Resistors
                 label22.Show();
                 label23.Show();
                 label24.Show();
+                label39.Show();
+                label41.Show();
                 button6.Show();
             }
             else if (comboBox1.SelectedIndex == 6)
@@ -137,6 +149,8 @@ namespace Assisnment_2_Resistors
                 label28.Show();
                 label29.Show();
                 label30.Show();
+                label38.Show();
+                label40.Show();
                 button7.Show();
             }
             else if (comboBox1.SelectedIndex == 7)
@@ -153,6 +167,8 @@ namespace Assisnment_2_Resistors
                 label34.Show();
                 label35.Show();
                 label36.Show();
+                label39.Show();
+                label41.Show();
                 button8.Show();
             }
         }
@@ -223,6 +239,10 @@ namespace Assisnment_2_Resistors
             label34.Hide();
             label35.Hide();
             label36.Hide();
+            label38.Hide();
+            label39.Hide();
+            label40.Hide();
+            label41.Hide();
             button1.Hide();
             button2.Hide();
             button3.Hide();

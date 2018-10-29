@@ -101,6 +101,11 @@
             this.textBox28 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -721,11 +726,66 @@
             this.label36.TabIndex = 72;
             this.label36.Text = "Total Resistance";
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(13, 13);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(195, 33);
+            this.label37.TabIndex = 73;
+            this.label37.Text = "Total Resistance";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(14, 448);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(215, 26);
+            this.label38.TabIndex = 74;
+            this.label38.Text = "Series: RT=R1+R2+R3+...";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(14, 474);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(304, 26);
+            this.label39.TabIndex = 75;
+            this.label39.Text = "Parallel: 1/RT=1/R1+1/R2+1/R3+...";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(159, 62);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(68, 26);
+            this.label40.TabIndex = 76;
+            this.label40.Text = "Series:";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(159, 215);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(81, 26);
+            this.label41.TabIndex = 77;
+            this.label41.Text = "Parallel:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 550);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label37);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.textBox28);
@@ -881,6 +941,11 @@
         private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
     }
 }
 
