@@ -67,6 +67,16 @@
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -406,11 +416,104 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(176, 193);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(54, 13);
+            this.label20.TabIndex = 39;
+            this.label20.Text = "Resistor 1";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(176, 287);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(54, 13);
+            this.label21.TabIndex = 40;
+            this.label21.Text = "Resistor 2";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(68, 193);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(54, 13);
+            this.label22.TabIndex = 41;
+            this.label22.Text = "Resistor 3";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(68, 287);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(54, 13);
+            this.label23.TabIndex = 42;
+            this.label23.Text = "Resistor 4";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(263, 240);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(87, 13);
+            this.label24.TabIndex = 43;
+            this.label24.Text = "Total Resistance";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(154, 209);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(100, 20);
+            this.textBox15.TabIndex = 44;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(154, 264);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(100, 20);
+            this.textBox16.TabIndex = 45;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(48, 209);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(100, 20);
+            this.textBox17.TabIndex = 46;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(48, 264);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(100, 20);
+            this.textBox18.TabIndex = 47;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(100, 235);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(100, 23);
+            this.button6.TabIndex = 48;
+            this.button6.Text = "Calculate";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 550);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox14);
@@ -498,6 +601,16 @@
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Button button6;
     }
 }
 

@@ -109,6 +109,20 @@ namespace Assisnment_2_Resistors
                 label19.Show();
                 button5.Show();
             }
+            else if (comboBox1.SelectedIndex == 5)
+            {
+                HideAll();
+                textBox15.Show();
+                textBox16.Show();
+                textBox17.Show();
+                textBox18.Show();
+                label20.Show();
+                label21.Show();
+                label22.Show();
+                label23.Show();
+                label24.Show();
+                button6.Show();
+            }
         }
 
         private void HideAll()
@@ -127,6 +141,10 @@ namespace Assisnment_2_Resistors
             textBox12.Hide();
             textBox13.Hide();
             textBox14.Hide();
+            textBox15.Hide();
+            textBox16.Hide();
+            textBox17.Hide();
+            textBox18.Hide();
             label1.Hide();
             label2.Hide();
             label3.Hide();
@@ -146,11 +164,17 @@ namespace Assisnment_2_Resistors
             label17.Hide();
             label18.Hide();
             label19.Hide();
+            label20.Hide();
+            label21.Hide();
+            label22.Hide();
+            label23.Hide();
+            label24.Hide();
             button1.Hide();
             button2.Hide();
             button3.Hide();
             button4.Hide();
             button5.Hide();
+            button6.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -199,6 +223,23 @@ namespace Assisnment_2_Resistors
             catch
             {
                 label19.Text = "Error unable to calculate.";
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double D15 = Convert.ToDouble(textBox15.Text);
+                double D16 = Convert.ToDouble(textBox16.Text);
+                double D17 = Convert.ToDouble(textBox17.Text);
+                double D18 = Convert.ToDouble(textBox18.Text);
+                double TotalResistance = 1 / (1 / D15 + 1 / D16 + 1 / D17 + 1 / D18);
+                label24.Text = TotalResistance.ToString();
+            }
+            catch
+            {
+                label24.Text = "Error unable to calculate.";
             }
         }
     }
