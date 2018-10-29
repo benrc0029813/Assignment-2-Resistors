@@ -62,6 +62,7 @@ namespace Assisnment_2_Resistors
                 label38.Show();
                 label40.Show();
                 button1.Show();
+                pictureBox1.Show();
             }
             else if (comboBox1.SelectedIndex == 1)
             {
@@ -74,6 +75,7 @@ namespace Assisnment_2_Resistors
                 label39.Show();
                 label41.Show();
                 button2.Show();
+                pictureBox2.Show();
             }
             else if (comboBox1.SelectedIndex == 2)
             {
@@ -88,6 +90,7 @@ namespace Assisnment_2_Resistors
                 label38.Show();
                 label40.Show();
                 button3.Show();
+                pictureBox1.Show();
             }
             else if (comboBox1.SelectedIndex == 3)
             {
@@ -102,6 +105,7 @@ namespace Assisnment_2_Resistors
                 label39.Show();
                 label41.Show();
                 button4.Show();
+                pictureBox2.Show();
             }
             else if (comboBox1.SelectedIndex == 4)
             {
@@ -118,6 +122,7 @@ namespace Assisnment_2_Resistors
                 label38.Show();
                 label40.Show();
                 button5.Show();
+                pictureBox1.Show();
             }
             else if (comboBox1.SelectedIndex == 5)
             {
@@ -134,6 +139,7 @@ namespace Assisnment_2_Resistors
                 label39.Show();
                 label41.Show();
                 button6.Show();
+                pictureBox2.Show();
             }
             else if (comboBox1.SelectedIndex == 6)
             {
@@ -152,6 +158,7 @@ namespace Assisnment_2_Resistors
                 label38.Show();
                 label40.Show();
                 button7.Show();
+                pictureBox1.Show();
             }
             else if (comboBox1.SelectedIndex == 7)
             {
@@ -170,6 +177,7 @@ namespace Assisnment_2_Resistors
                 label39.Show();
                 label41.Show();
                 button8.Show();
+                pictureBox2.Show();
             }
         }
 
@@ -251,6 +259,8 @@ namespace Assisnment_2_Resistors
             button6.Hide();
             button7.Hide();
             button8.Hide();
+            pictureBox1.Hide();
+            pictureBox2.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
