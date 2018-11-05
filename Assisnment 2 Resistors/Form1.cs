@@ -18,6 +18,7 @@ namespace Assisnment_2_Resistors
             comboBox1.SelectedIndex = 0;
         }
 
+        //Calculates Resistance for a series circuit with 2 resistors
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -33,6 +34,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a parallel circuit with 2 resistors
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -48,6 +50,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Shows specific content when certain criteria are met
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
 
         {
@@ -181,6 +184,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Hides specific content
         private void HideAll()
         {
             textBox1.Hide();
@@ -263,6 +267,7 @@ namespace Assisnment_2_Resistors
             pictureBox2.Hide();
         }
 
+        //Calculates Resistance for a series circuit with 3 resistors
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -279,6 +284,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a parallel circuit with 3 resistors
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -295,6 +301,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a series circuit with 4 resistors
         private void button5_Click(object sender, EventArgs e)
         {
             try
@@ -312,6 +319,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a parallel circuit with 4 resistors
         private void button6_Click(object sender, EventArgs e)
         {
             try
@@ -329,6 +337,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a series curcuit with 5 resistors
         private void button7_Click(object sender, EventArgs e)
         {
             try
@@ -347,6 +356,7 @@ namespace Assisnment_2_Resistors
             }
         }
 
+        //Calculates Resistance for a parallel circuit with 5 resistors
         private void button8_Click(object sender, EventArgs e)
         {
             try
